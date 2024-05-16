@@ -1,0 +1,58 @@
+[gd_scene load_steps=4 format=3 uid="uid://6umi5uufeuac"]
+
+[ext_resource type="Script" path="res://escenas y scripts/pausa.gd" id="1_jtj0c"]
+[ext_resource type="FontFile" uid="uid://cq1krkpntf1gq" path="res://fuente de letra/BlockKie.ttf" id="1_qhg5h"]
+[ext_resource type="AudioStream" uid="uid://cwd6cln4cm7gm" path="res://efectos de sonido/caminar.wav" id="2_fmm2u"]
+
+[node name="Pausa" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_jtj0c")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.0705882)
+
+[node name="Pausa" type="Label" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -140.0
+offset_top = -56.0
+offset_right = 140.0
+offset_bottom = 56.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_qhg5h")
+theme_override_font_sizes/font_size = 111
+text = "Pausa"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_fmm2u")
+
+[node name="Resume" type="Button" parent="."]
+visible = false
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.506
+offset_left = -140.0
+offset_top = 37.0
+offset_right = 132.0
+offset_bottom = 125.112
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_qhg5h")
+theme_override_font_sizes/font_size = 76
+text = "Resume"
+flat = true

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwd6cln4cm7gm"
+path="res://.godot/imported/caminar.wav-fa9a7de60e753178999025f12d4375fb.sample"
+
+[deps]
+
+source_file="res://efectos de sonido/caminar.wav"
+dest_files=["res://.godot/imported/caminar.wav-fa9a7de60e753178999025f12d4375fb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

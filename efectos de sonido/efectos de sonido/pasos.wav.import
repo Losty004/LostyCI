@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cguy3gbxeykff"
+path="res://.godot/imported/pasos.wav-421354ce5cbe2e1ff80af938bd743bd3.sample"
+
+[deps]
+
+source_file="res://efectos de sonido/efectos de sonido/pasos.wav"
+dest_files=["res://.godot/imported/pasos.wav-421354ce5cbe2e1ff80af938bd743bd3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,60 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1715389650
+attack tutorial.png::CompressedTexture2D::7862784783659190230::1711855432::1711855483::1::::<><>::
+Background1.png::CompressedTexture2D::7337466614729972023::1711402717::1711402717::1::::<><>::
+Background2.png::CompressedTexture2D::3880565842630048238::1711402720::1711402720::1::::<><>::
+Background4.png::CompressedTexture2D::5961343203930225979::1711402696::1711402696::1::::<><>::
+Boton.png::CompressedTexture2D::7943681493035613063::1711923181::1711923182::1::::<><>::
+enemigo.gd::GDScript::-1::1712004544::0::1::::<>CharacterBody2D<>::
+export_presets.cfg::TextFile::-1::1711939078::0::1::::<><>::
+fondoxdxd.png::CompressedTexture2D::7064619951401014956::1711930292::1711930864::1::::<><>::
+fresa.png::CompressedTexture2D::7589138934563340300::1711908461::1711908461::1::::<><>::
+frutas.ogg::AudioStreamOggVorbis::5926206444758345072::1711937109::1711937110::1::::<><>::
+icon.svg::CompressedTexture2D::8507245541986565773::1711402644::1711402651::1::::<><>::
+jump tutorial.png::CompressedTexture2D::2064913185737718132::1711855415::1711855483::1::::<><>::
+jump.png::CompressedTexture2D::5873263444193114060::1711920128::1711920129::1::::<><>::
+left .png::CompressedTexture2D::9008410094651395730::1711920118::1711920119::1::::<><>::
+losty attack.png::CompressedTexture2D::7163894296925738791::1711899340::1711900570::1::::<><>::
+LostyGamemaker2.2.png::CompressedTexture2D::3506547382199588429::1711902013::1711902014::1::::<><>::
+LostyGamemaker2.png::CompressedTexture2D::2013956080703030709::1711402706::1711900570::1::::<><>::
+particulas2.png::CompressedTexture2D::5606455087755250957::1711905894::1711905895::1::::<><>::
+particulas.gd::GDScript::-1::1711907344::0::1::::<>CPUParticles2D<>::
+particulas.png::CompressedTexture2D::652048387275235796::1711905638::1711905639::1::::<><>::
+particulas.tscn::PackedScene::5584741408430996397::1711924843::0::1::::<><>::uid://cl42q4t64cpj6::::res://particulas2.png
+pausa.png::CompressedTexture2D::3476672208625539725::1711928897::1711928897::1::::<><>::
+right.png::CompressedTexture2D::1664704699490662645::1711920122::1711920122::1::::<><>::
+Tile.png::CompressedTexture2D::7012514279928703989::1711403304::1711403304::1::::<><>::
+trans.tscn::PackedScene::5352738553586455709::1715376904::0::1::::<><>::res://escenas y scripts/trans.gd
+Walk tutorial.png::CompressedTexture2D::2146741787112875746::1711855402::1711855483::1::::<><>::
+::res://coleccionables/::1715376904
+fruta.gd::GDScript::-1::1711998286::0::1::::<>Area2D<>::
+fruta.tscn::PackedScene::6724018067478892715::1715376904::0::1::::<><>::res://coleccionables/fruta.gd<>uid://dgeiak7awvd45::::res://fresa.png<>uid://brxod4hs8up0m::::res://efectos de sonido/frutas.wav
+::res://efectos de sonido/::1712165837
+caminar.wav::AudioStreamWAV::6325075458208781880::1711912542::1711912542::1::::<><>::
+frutas.wav::AudioStreamWAV::3627968644016997706::1711995898::1711995922::1::::<><>::
+Salto.wav::AudioStreamWAV::4676133494329641894::1711912542::1711912542::1::::<><>::
+::res://efectos de sonido/efectos de sonido/::1714581694
+correr.wav::AudioStreamWAV::9055218465030646293::1712165758::1714581694::1::::<><>::
+pasos.wav::AudioStreamWAV::5236769512087544567::1712165524::1714581694::1::::<><>::
+Toque de puerta.wav::AudioStreamWAV::2865790256696689556::1712165447::1714581694::1::::<><>::
+::res://Enemigos/::1715376904
+enemigo.tscn::PackedScene::570528539401732149::1715376904::0::1::::<><>::res://enemigo.gd<>uid://cirr66g0e3s6j::::res://escenas y scripts/enemigo.png
+::res://escenas y scripts/::1715376952
+enemigo.png::CompressedTexture2D::5370535725432593327::1712003208::1712003209::1::::<><>::
+Global.gd::GDScript::-1::1711997055::0::1::::<>Node<>::
+global.tscn::PackedScene::8579989236182748490::1715376904::0::1::::<><>::uid://brxod4hs8up0m::::res://efectos de sonido/frutas.wav
+menu.gd::GDScript::-1::1711998254::0::1::::<>Control<>::
+menu.tscn::PackedScene::1798617424290511086::1715376904::0::1::::<><>::res://escenas y scripts/menu.gd<>uid://cq1krkpntf1gq::::res://fuente de letra/BlockKie.ttf
+mundo.gd::GDScript::-1::1711925659::0::1::::<>Node2D<>::
+mundo.tscn::PackedScene::7366762042728873751::1715376952::0::1::::<><>::uid://4oi23fukmhp1::::res://jump tutorial.png<>uid://5t5r2jhkhjyw::::res://Walk tutorial.png<>uid://c656c6amg1nar::::res://Tile.png<>uid://b86bnj5nkvlre::::res://escenas y scripts/player.tscn<>uid://c22fuia7ru4ah::::res://coleccionables/fruta.tscn
+parallax_background.tscn::PackedScene::4845959593168942153::1715376904::0::1::::<><>::uid://c7wfi107jfqhg::::res://fondoxdxd.png
+pausa.gd::GDScript::-1::1715375845::0::1::::<>CanvasLayer<>::
+pausa.tscn::PackedScene::2217886205636799298::1715376904::0::1::::<><>::res://escenas y scripts/pausa.gd<>uid://cq1krkpntf1gq::::res://fuente de letra/BlockKie.ttf<>uid://cwd6cln4cm7gm::::res://efectos de sonido/caminar.wav
+player.gd::GDScript::-1::1715376866::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::4766732686096699226::1715376904::0::1::::<><>::res://escenas y scripts/player.gd<>uid://bp7uk8qasf45v::::res://LostyGamemaker2.2.png<>uid://6umi5uufeuac::::res://escenas y scripts/pausa.tscn<>uid://xynpck6ar5if::::res://right.png<>uid://d1l0g0awq708m::::res://left .png<>uid://cpxb15g3m5rcu::::res://jump.png<>uid://bpsejvr6jc5n2::::res://pausa.png
+Sprite-000.png::CompressedTexture2D::1460740789771379561::1712003197::1712003199::1::::<><>::
+trans.gd::GDScript::-1::1711998094::0::1::::<>CanvasLayer<>::
+::res://fuente de letra/::1711923780
+BlockKie.ttf::FontFile::5950174764646167676::1674634887::1711923780::1::::<><>::
+::res://uwu/::1711939076
+xd.txt::TextFile::-1::1711917154::0::1::::<><>::

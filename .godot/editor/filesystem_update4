@@ -1,0 +1,10 @@
+res://escenas y scripts/menu.tscn
+res://escenas y scripts/pausa.gd
+res://escenas y scripts/pausa.tscn
+res://escenas y scripts/player.tscn
+res://escenas y scripts/parallax_background.tscn
+res://coleccionables/fruta.tscn
+res://escenas y scripts/mundo.tscn
+res://trans.tscn
+res://escenas y scripts/global.tscn
+res://Enemigos/enemigo.tscn

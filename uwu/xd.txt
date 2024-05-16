@@ -1,0 +1,1 @@
+keytool -v -genkey -keystore LostyTS.keystore -alias LostyTS -keyalg RSA -validity 10000

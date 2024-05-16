@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://duihf0s8bmq8y"]
+
+[ext_resource type="AudioStream" uid="uid://brxod4hs8up0m" path="res://efectos de sonido/frutas.wav" id="1_ba22n"]
+
+[node name="Global" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_ba22n")

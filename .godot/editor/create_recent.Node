@@ -1,0 +1,14 @@
+AnimatedSprite2D
+AnimationPlayer
+CollisionShape2D
+Sprite2D
+CharacterBody2D
+Button
+ColorRect
+CanvasLayer
+AudioStreamPlayer
+AudioStreamPlayer2D
+Node
+ParallaxLayer
+ParallaxBackground
+Control

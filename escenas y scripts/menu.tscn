@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://0vi736nr6rra"]
+
+[ext_resource type="Script" path="res://escenas y scripts/menu.gd" id="1_82pbh"]
+[ext_resource type="FontFile" uid="uid://cq1krkpntf1gq" path="res://fuente de letra/BlockKie.ttf" id="2_qeg74"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1153.0
+offset_bottom = 647.0
+script = ExtResource("1_82pbh")
+
+[node name="VBoxBotones" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -201.5
+offset_top = -178.0
+offset_right = 201.5
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.959488, 0.982654)
+
+[node name="Jugar" type="Button" parent="VBoxBotones"]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_qeg74")
+theme_override_font_sizes/font_size = 158
+text = "Jugar"
+flat = true
+
+[node name="Salir" type="Button" parent="VBoxBotones"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_qeg74")
+theme_override_font_sizes/font_size = 176
+text = "Salir"
+flat = true
+
+[connection signal="pressed" from="VBoxBotones/Jugar" to="." method="_on_jugar_pressed"]
+[connection signal="pressed" from="VBoxBotones/Salir" to="." method="_on_salir_pressed"]
